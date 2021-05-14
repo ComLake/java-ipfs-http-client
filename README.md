@@ -7,7 +7,7 @@
 
 ![](https://ipfs.io/ipfs/QmQJ68PFMDdAsgCZvA1UVzzn18asVcf7HVvCDgpjiSCAse)
 
-> A Java client for the IPFS http api
+A temporary fork of the Java client for the IPFS HTTP API
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ for Maven, add the following sections to your pom.xml (replacing $LATEST_VERSION
 
   <dependencies>
     <dependency>
-      <groupId>com.github.ipfs</groupId>
+      <groupId>com.github.ComLake</groupId>
       <artifactId>java-ipfs-http-client</artifactId>
       <version>$LATEST_VERSION</version>
     </dependency>
