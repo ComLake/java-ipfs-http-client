@@ -641,7 +641,7 @@ public class IPFS {
         }
     }
 
-    private Map retrieveMap(String path) throws IOException {
+    public Map retrieveMap(String path) throws IOException {
         return (Map)retrieveAndParse(path);
     }
 
