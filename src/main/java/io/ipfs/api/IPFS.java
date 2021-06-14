@@ -682,7 +682,7 @@ public class IPFS {
         getObjectStream(retrieveStream(path), d -> results.accept(JSONParser.parse(new String(d))), err);
     }
 
-    private byte[] retrieve(String path) throws IOException {
+    public byte[] retrieve(String path) throws IOException {
         URL target = new URL(protocol, host, port, version + path);
         return IPFS.get(target, connectTimeoutMillis, readTimeoutMillis);
     }
